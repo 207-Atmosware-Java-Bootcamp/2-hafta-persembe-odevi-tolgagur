@@ -35,7 +35,7 @@ if (num >= 100) {
 function numbers() {
   
     if (num >= 44) {
-        document.writeln("Kaç tane sayı : " + (num - 2) + '<br>');
+        document.writeln("Kaç tane sayı : " + (num - 1) + '<br>');
     }else{
         document.writeln("Kaç tane sayı : " + (num - 1) + '<br>');
 
@@ -46,7 +46,9 @@ function numbers() {
 function sum() {
 
     var sum = 0;
-    for (let i = 0; i <= num; i++) {
+    for (var i = 0; i <= num; i++) {
+        if(i ===7)
+            continue;
         sum = sum + i;
     }
 
