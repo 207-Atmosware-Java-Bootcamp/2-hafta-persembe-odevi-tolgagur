@@ -33,8 +33,12 @@ if (num >= 100) {
 }
 //kaç tane sayı oldugunu yazan fonksiyon
 function numbers() {
+  
     if (num >= 44) {
         document.writeln("Kaç tane sayı : " + (num - 2) + '<br>');
+    }else{
+        document.writeln("Kaç tane sayı : " + (num - 1) + '<br>');
+
     }
 }
 
