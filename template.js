@@ -99,7 +99,14 @@ function oddNumber() {
 }
 
 //fonksiyonların ekrana yazdırıldığı yer
-numbers();
-sum();
-evenNumber();
-oddNumber();
+function print(){
+    numbers();
+    sum();
+    document.write('<br>') 
+    evenNumber();
+    document.write('<br>') 
+    oddNumber();
+}
+
+print();
+
