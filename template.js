@@ -61,9 +61,7 @@ function evenNumber() {
     var even = 0;
     var evenSum = 0;
     for (let i = 1; i <= num; i++) {
-        if (i == 44) {
-            continue;
-        }
+ 
         if (i % 2 == 0) {
             evenSum = evenSum + i;
             even++;
@@ -103,9 +101,9 @@ function print(){
     numbers();
     sum();
     document.write('<br>') 
-    evenNumber();
-    document.write('<br>') 
     oddNumber();
+    document.write('<br>') 
+    evenNumber();
 }
 
 print();
