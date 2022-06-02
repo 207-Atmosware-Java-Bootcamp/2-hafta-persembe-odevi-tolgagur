@@ -42,10 +42,10 @@ function numbers() {
 function sum() {
 
     var sum = 0;
-    for (let i = 0; i < num; i++) {
+    for (let i = 0; i <= num; i++) {
         sum = sum + i;
     }
-     
+
     document.writeln("Toplam sayı : " + sum + '<br>');
 }
 
@@ -66,8 +66,8 @@ function evenNumber() {
 
     }
     document.writeln("Cift sayı adeti : " + even + '<br>' +
-    "Cift sayıların toplamı : " + evenSum + '<br>' +
-    "Cift sayılar: " + numbers + '<br>');
+        "Cift sayıların toplamı : " + evenSum + '<br>' +
+        "Cift sayılar: " + numbers + '<br>');
 }
 
 //tek sayılar sayılar
@@ -88,8 +88,8 @@ function oddNumber() {
 
     }
     document.writeln("Tek sayı adeti : " + odd + '<br>' +
-    "Tek sayıların toplamı : " + oddSum + '<br>'+
-    "Tek sayılar : " + numbers + '<br>');
+        "Tek sayıların toplamı : " + oddSum + '<br>' +
+        "Tek sayılar : " + numbers + '<br>');
 }
 
 //fonksiyonların ekrana yazdırıldığı yer
